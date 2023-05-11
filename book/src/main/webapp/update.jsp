@@ -18,17 +18,26 @@
 	  <div class="mb-3">
 	    <label for="price" class="form-label">price</label>
 	    <input type="text" class="form-control" id="price" name="price" value="${dto.price}">    
-	  </div>  
+	  </div> 
 	  <div class="mb-3">
 	    <label for="description" class="form-label">description</label>
-	    <textarea class="form-control" id="description" name="description" readonly>${dto.description}</textarea>   
-	  </div>  
+	    <textarea class="form-control" id="description" name="description" readonly>${dto.description}</textarea>    
+	  </div>   
 	  <button type="button" class="btn btn-primary">목록으로</button>
-	  <button type="submit" class="btn btn-success">수정</button>
-	  <button type="button" class="btn btn-danger">삭제</button>
+	  <button type="submit" class="btn btn-success">수정</button>	  
+	  <button type="button" class="btn btn-danger">삭제</button>	  
 	</form>
 <script>
 	const code = ${dto.code};
 </script>
-<script src = "/js/update.js"></script>
-<%@ include file="/include/footer.jsp" %>    
+<script src="/js/update.js"></script>
+<%@ include file="/include/footer.jsp" %>
+
+
+
+
+
+
+
+
+    
